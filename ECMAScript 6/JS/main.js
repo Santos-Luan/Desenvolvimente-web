@@ -1,4 +1,5 @@
-class List{
+/*
+    class List{
     constructor(){
         this.data = []
     }
@@ -53,3 +54,47 @@ function teste (x){
 
 console.log(teste(10))
 //console.log(y)
+
+
+const arr = [1, 2, 3, 4, 6, 8, 9]
+
+const newArr = arr.map(function(item){
+    return item = 2;
+})
+
+console.log(newArr)
+
+const reduce = arr.reduce(function(total,next){
+    return total + next;
+})
+
+console.log(soma)
+
+const filter = arr.filter(function(item){
+    return item % 2 === 0;
+})
+
+console.log(filter)
+
+const find = arr.find(function(item){
+    return item === 3;
+})
+
+console.log(find)
+
+
+const newArr = arr.map(item=>item * 2)
+console.log(newArr)
+
+const teste = () => {
+    return {nome: 'Luan'}
+}
+console.log(teste())
+
+*/
+
+function some(a=2, b=3){
+    return a+b;
+}
+
+console.log(soma())
